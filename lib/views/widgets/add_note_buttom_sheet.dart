@@ -1,4 +1,3 @@
-
 import 'package:flutter/cupertino.dart';
 
 class AddNoteButtonSheet extends StatelessWidget {
@@ -6,6 +5,6 @@ class AddNoteButtonSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container();
   }
 }
