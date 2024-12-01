@@ -4,8 +4,8 @@ import 'package:notesapp/views/widgets/constans.dart';
 import 'package:notesapp/views/widgets/custom_button.dart';
 import 'package:notesapp/views/widgets/custom_text_field.dart';
 
-class AddNoteButtonSheet extends StatelessWidget {
-  const AddNoteButtonSheet({super.key});
+class AddNewProperty extends StatelessWidget {
+  const AddNewProperty({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,25 +18,20 @@ class AddNoteButtonSheet extends StatelessWidget {
               height: 32,
             ),
             CustomTextField(
-              hint: 'Title',
+              hint: 'Property',
             ),
             SizedBox(
               height: 16,
             ),
             CustomTextField(
-              hint: 'Content',
+              hint: 'Value',
               maxlines: 5,
             ),
             SizedBox(
               height: 32,
             ),
-            customButtom(name: 'add',),
-            SizedBox(
-              height: 20,
-            ),
-            customButtom(name: 'add property',),
-            SizedBox(
-              height: 16,
+            customButtom(
+              name: 'Save',
             ),
           ],
         ),
